@@ -65,7 +65,8 @@ def quit():
 
 def calc_run():
     op = input("Enter function: ")
-    speak(op)
+    speak(f"You chose {op}")
+    print(f"You chose {op}")
     if op == 'add':
         addition()
     elif op == 'subtract':
